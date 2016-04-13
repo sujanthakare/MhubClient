@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#008A8A"
+    tools:context="zeriff.com.mhub.LoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/instagramiconwhite"
+        android:id="@+id/instagram"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/zeriffweb"
+        android:layout_alignRight="@+id/zeriffweb"
+        android:layout_alignEnd="@+id/zeriffweb"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/facebook"
+        android:src="@drawable/facebookiconwhite"
+        android:layout_below="@+id/zeriffweb"
+        android:layout_alignLeft="@+id/zeriffweb"
+        android:layout_alignStart="@+id/zeriffweb"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/zeriffweb"
+        android:src="@drawable/zsignuplogo"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
